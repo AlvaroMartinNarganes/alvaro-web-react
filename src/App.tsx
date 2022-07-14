@@ -1,24 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+import {DarkModeSwitch} from 'react-toggle-dark-mode';
 
 function App() {
+  const [isDarkMode, setDarkMode] = React.useState(true);
+  const [theme,setTheme]=React.useState("dark");
+  const toggleDarkMode = (checked:boolean) => {
+    setTheme(theme==="dark"?"light":"dark");
+    setDarkMode(checked);
+  }
   return (
-    <div className="App">
+    <div className="app">
+       <div className={theme}>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>Modo oscuro: {isDarkMode.toString()}</p>
+      <DarkModeSwitch
+      style={{ marginBottom: '2rem' }}
+      checked={isDarkMode}
+      onChange={toggleDarkMode}
+      size={120}
+    />
       </header>
+      </div>
     </div>
   );
 }
