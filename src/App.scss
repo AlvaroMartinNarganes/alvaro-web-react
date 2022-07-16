@@ -1,27 +1,47 @@
+@import "~bootstrap/scss/bootstrap";
+
 .App {
   text-align: center;
 }
 
 
 .App-header {
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .light{
   background-color: whitesmoke;
-  p{
     color: black;
-  }
 }
 .dark{
   background-color: #282c34;
-  p{
     color:white;
+}
+
+main{
+  height:100vh;
+}
+
+.try{
+  background-color: red;
+  margin: 5px;
+}
+
+/* Switch button */
+.switch-mode{
+margin-right: 100px;
+margin-top: 25px;
+
+}
+
+@media screen {
+  .switch-mode{
+  margin-top: 10px;
+  margin-right: 20px;
   }
 }
