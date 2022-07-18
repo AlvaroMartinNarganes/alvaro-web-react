@@ -20,17 +20,19 @@
 }
 .dark{
   background-color: #282c34;
-    color:white;
+  color:white;
+  .card{
+    background-color: #282c34;
+    border: 2px solid green;
+  }
 }
 
 main{
   height:100vh;
+  text-align: center;
+  
 }
 
-.try{
-  background-color: red;
-  margin: 5px;
-}
 
 /* Switch button */
 .switch-mode{
