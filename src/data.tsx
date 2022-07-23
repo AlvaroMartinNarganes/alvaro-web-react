@@ -1,21 +1,44 @@
 export const cardData = [
   {
     title: 'Sobre mí',
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing
-    elit. Quidem aliquam delectus suscipit exercitationem
-    explicabo doloremque accusantium veritatis nulla
-    commodi doloribus.`,
+    description: `Desarrollador junior. Con experiencia trabajando en empresa como Full Stack Developer
+    (Centrado en Yii2,VueJS y Prestashop). Soy una persona autodidacta, que está aprendiendo constantemente
+    nuevas tecnologías, con ganas de mejorar dentro del mundo de la programación.`,
   },
   {
     title: 'Tecnologías',
-    item: ['react', 'Vue', 'PHP', 'Java', 'Prestashop', 'Moodle', 'Linux'],
+    item: [
+      'JavaScript / TypeScript',
+      'React / Next / Vue',
+      'PHP / Yii2',
+      'Java / QTDesigner / Hibernate ',
+      'Prestashop / Moodle / Odoo',
+      'SQL / NoSQL / OracleDB',
+      'Windows / Linux / MacOS',
+    ],
   },
   {
     title: 'Proyectos',
-    item: ['URL-Recetas', 'URL-VUE', 'URL-ESTAWEB', 'URL-TFG'],
+    url: [
+      [
+        'Esta página',
+        'https://github.com/AlvaroMartinNarganes/alvaro-web-react.git',
+      ],
+      [
+        'PortFolio Vue',
+        'https://github.com/AlvaroMartinNarganes/pagina_personal',
+      ],
+      ['Recetas', 'https://github.com/AlvaroMartinNarganes/Recipes-Web-Next'],
+      ['TFG', 'https://github.com/AlvaroMartinNarganes/TFC'],
+    ],
   },
   {
     title: 'Contacto',
-    item: ['Teléfono: 616248343', 'Email: alvaro.martin.narganes@gmail.com'],
+    item: [
+      '616248343',
+      'alvaro.martin.narganes@gmail.com',
+      'linkedin.com/in/álvaro-martín-narganes-04a798213',
+      'github.com/AlvaroMartinNarganes',
+    ],
   },
 ];

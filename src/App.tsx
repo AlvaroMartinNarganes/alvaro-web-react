@@ -16,12 +16,6 @@ function App() {
     setDarkMode(checked);
   };
 
-  //Open Card
-  const [cardOpen, setIsOpen] = useState(false);
-
-  const toggleCard = (event: React.MouseEvent<HTMLElement>) => {
-    setIsOpen(!cardOpen);
-  };
   return (
     <div className='app'>
       <div className={theme}>
@@ -35,13 +29,15 @@ function App() {
           />
         </header>
         <main>
-          <h1>Álvaro Martín Narganes</h1>
-          <h2>Web Developer</h2>
-          <div>
+          <div className='title'>
+            <h1>Álvaro Martín Narganes</h1>
+            <h2>Web Developer</h2>
+          </div>
+          <div className='cards-div'>
             <Container fluid='sm'>
               <Row>
                 {cardData.map((item) => (
-                  <Col key={item.title} xs={12} md={6} lg>
+                  <Col key={item.title} sm={12} md={6} lg>
                     <CardFramer {...item} />
                   </Col>
                 ))}

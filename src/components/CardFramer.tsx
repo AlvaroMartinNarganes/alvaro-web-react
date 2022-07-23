@@ -1,10 +1,12 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
+import './CardFramer.scss';
 
 type props = {
   title: string;
   description?: string | undefined;
   item?: Array<string> | undefined;
+  url?: Array<Array<string>> | undefined;
 };
 
 function CardFramer(props: props) {
@@ -27,6 +29,15 @@ function CardFramer(props: props) {
             <ul>
               {props.item?.map((i) => (
                 <li key={i}>{i}</li>
+              ))}
+            </ul>
+          )}
+          {props.url != null && (
+            <ul>
+              {props.url.map((url) => (
+                <li key={url[0]}>
+                  <a href={url[1]}>{url[0]}</a>
+                </li>
               ))}
             </ul>
           )}

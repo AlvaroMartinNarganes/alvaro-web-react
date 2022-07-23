@@ -4,7 +4,6 @@
   text-align: center;
 }
 
-
 .App-header {
   display: flex;
   flex-direction: row;
@@ -13,26 +12,33 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.title{
+  margin-top: 50px;
+}
 
 .light{
   background-color: whitesmoke;
     color: black;
+    border: 2px solid ;
 }
 .dark{
   background-color: #282c34;
   color:white;
   .card{
     background-color: #282c34;
-    border: 2px solid green;
+    border: 2px solid #0cc80c;
+    
   }
 }
 
 main{
-  height:100vh;
+  min-height:100vh;
+  height: auto;
   text-align: center;
-  
+  .cards-div{
+    margin-top: 100px;
+  }
 }
-
 
 /* Switch button */
 .switch-mode{
