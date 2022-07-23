@@ -12,6 +12,7 @@
     "@types/react-dom": "^18.0.6",
     "bootstrap": "^5.1.3",
     "framer-motion": "^6.5.1",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.2.0",
@@ -22,6 +23,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -47,5 +50,6 @@
   },
   "devDependencies": {
     "prettier": "^2.7.1"
-  }
+  },
+  "homepage": "https://github.com/AlvaroMartinNarganes/alvaro-web-react"
 }
