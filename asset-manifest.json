@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AlvaroMartinNarganes/alvaro-web-react/static/css/main.7d995b50.css",
-    "main.js": "/AlvaroMartinNarganes/alvaro-web-react/static/js/main.52a27ca5.js",
-    "static/js/787.19b97173.chunk.js": "/AlvaroMartinNarganes/alvaro-web-react/static/js/787.19b97173.chunk.js",
-    "index.html": "/AlvaroMartinNarganes/alvaro-web-react/index.html",
-    "main.7d995b50.css.map": "/AlvaroMartinNarganes/alvaro-web-react/static/css/main.7d995b50.css.map",
-    "main.52a27ca5.js.map": "/AlvaroMartinNarganes/alvaro-web-react/static/js/main.52a27ca5.js.map",
-    "787.19b97173.chunk.js.map": "/AlvaroMartinNarganes/alvaro-web-react/static/js/787.19b97173.chunk.js.map"
+    "main.css": "/alvaro-web-react/static/css/main.7d995b50.css",
+    "main.js": "/alvaro-web-react/static/js/main.0d2d322e.js",
+    "static/js/787.19b97173.chunk.js": "/alvaro-web-react/static/js/787.19b97173.chunk.js",
+    "index.html": "/alvaro-web-react/index.html",
+    "main.7d995b50.css.map": "/alvaro-web-react/static/css/main.7d995b50.css.map",
+    "main.0d2d322e.js.map": "/alvaro-web-react/static/js/main.0d2d322e.js.map",
+    "787.19b97173.chunk.js.map": "/alvaro-web-react/static/js/787.19b97173.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7d995b50.css",
-    "static/js/main.52a27ca5.js"
+    "static/js/main.0d2d322e.js"
   ]
 }
