@@ -1,4 +1,5 @@
 {
+  "homepage": "http://alvaromartinnarganes.github.io/alvaro-web-react/",
   "name": "alvaro-web-react",
   "version": "0.1.0",
   "private": true,
@@ -50,6 +51,5 @@
   },
   "devDependencies": {
     "prettier": "^2.7.1"
-  },
-  "homepage": "https://github.com/AlvaroMartinNarganes/alvaro-web-react"
+  }
 }
